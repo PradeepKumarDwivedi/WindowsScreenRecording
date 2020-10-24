@@ -1,0 +1,27 @@
+﻿  stdafx.cpp
+  DuplicationManager.cpp
+  ScreenRecordingInMP4Container.cpp
+C:\Users\praveen\source\repos\ScreenRecordingInMP4Container\ScreenRecordingInMP4Container\FFmpeg32include\libavutil/libm.h(432): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
+c:\users\praveen\source\repos\screenrecordinginmp4container\screenrecordinginmp4container\ffmpeg32include\libavutil\x86/emms.h(46): warning C4390: ';': empty controlled statement found; is this the intent?
+ScreenRecordingInMP4Container.cpp(69): warning C4101: 'i': unreferenced local variable
+ScreenRecordingInMP4Container.cpp(177): warning C4473: 'fprintf' : not enough arguments passed for format string
+  ScreenRecordingInMP4Container.cpp(177): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  ScreenRecordingInMP4Container.cpp(177): note: the missing variadic argument 1 is required by format string '%s'
+ScreenRecordingInMP4Container.cpp(294): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int64_t'
+  ScreenRecordingInMP4Container.cpp(294): note: consider using '%lld' in the format string
+  ScreenRecordingInMP4Container.cpp(294): note: consider using '%I64d' in the format string
+ScreenRecordingInMP4Container.cpp(320): warning C4473: 'fprintf' : not enough arguments passed for format string
+  ScreenRecordingInMP4Container.cpp(320): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  ScreenRecordingInMP4Container.cpp(320): note: the missing variadic argument 1 is required by format string '%s'
+ScreenRecordingInMP4Container.cpp(406): warning C4473: 'fprintf' : not enough arguments passed for format string
+  ScreenRecordingInMP4Container.cpp(406): note: placeholders and their parameters expect 2 variadic arguments, but 0 were provided
+  ScreenRecordingInMP4Container.cpp(406): note: the missing variadic argument 1 is required by format string '%s'
+ScreenRecordingInMP4Container.cpp(416): warning C4473: 'fprintf' : not enough arguments passed for format string
+  ScreenRecordingInMP4Container.cpp(416): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  ScreenRecordingInMP4Container.cpp(416): note: the missing variadic argument 1 is required by format string '%s'
+ScreenRecordingInMP4Container.cpp(342): warning C4101: 'codec_name_video': unreferenced local variable
+ScreenRecordingInMP4Container.cpp(349): warning C4101: 'i': unreferenced local variable
+  Generating code
+  All 34 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ScreenRecordingInMP4Container.vcxproj -> c:\users\praveen\source\repos\ScreenRecordingInMP4Container\Release\ScreenRecordingInMP4Container.exe

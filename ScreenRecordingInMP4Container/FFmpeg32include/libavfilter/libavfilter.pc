@@ -1,0 +1,14 @@
+prefix=/home/test/ffmpeg_build
+exec_prefix=${prefix}
+libdir=/home/test/ffmpeg_build/lib
+includedir=/home/test/ffmpeg_build/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 7.26.100
+Requires: 
+Requires.private: libswscale >= 5.2.100, libpostproc >= 55.2.100, libswresample >= 3.2.100, libavformat >= 58.17.101, libavcodec >= 58.22.101, libavutil >= 56.18.102
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -lm
+Cflags: -I${includedir}

@@ -1,0 +1,14 @@
+prefix=/home/test/ffmpeg_build
+exec_prefix=${prefix}
+libdir=/home/test/ffmpeg_build/lib
+includedir=/home/test/ffmpeg_build/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.18.102
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm -luser32 -lbcrypt
+Cflags: -I${includedir}
